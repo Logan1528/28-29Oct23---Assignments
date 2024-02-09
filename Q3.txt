@@ -1,0 +1,38 @@
+Q3.Explain what .gitignore is and why it’s important in version control
+
+	The purpose of gitignore files is to ensure that certain files not tracked by Git 
+remain untracked.To stop tracking a file that is currently tracked, use git rm --cached to
+ remove the file from the index. The filename can then be added to the .gitignore file to 
+stop the file from being reintroduced in later commits.Git does not follow symbolic links 
+when accessing a .gitignore file in the working tree. This keeps behavior consistent when 
+the file is accessed from the index or a tree versus from the filesystem.
+
+The entries in this file can also follow a matching pattern.
+
+* is used as a wildcard match
+/ is used to ignore pathnames relative to the .gitignore file
+# is used to add comments to a .gitignore file
+
+This is an example of what the .gitignore file could look like:
+
+# Ignore Mac system files
+.DS_store
+
+# Ignore node_modules folder
+node_modules
+
+# Ignore all text files
+*.txt
+
+# Ignore files related to API keys
+.env
+
+# Ignore SASS config files
+.sass-cache
+
+git config --global core.excludesfile ~/.gitignore_global
+
+This will create the file ~/.gitignore_global. Now you can edit that file the same way 
+as a local .gitignore file. All of your Git repositories will ignore the files and 
+folders listed in the global .gitignore file.
+

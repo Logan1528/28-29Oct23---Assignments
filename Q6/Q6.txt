@@ -1,0 +1,9 @@
+Q6. Deploy Tailwind projects named Youtube, slack, and Gmail clones on GitHub pages and share the
+deployed link of those three. Expected output - Live hosted URL Link of your deployed respective website with
+GitHub pages.
+
+Youtube clone Link - https://youtube-clone-rrn6.vercel.app/
+
+Gmail Clone Link - https://gmail-clone-a7i1ute0v-logans-projects-6cd6a630.vercel.app/
+
+Slack Clone Link - https://slack-clone-sigma-seven.vercel.app/

@@ -1,0 +1,26 @@
+Q4. Briefly explain what GitHub is and how it facilitates collaboration and version control 
+also name some alternatives to GitHub.
+
+	GitHub is a platform for hosting code that allows for version control and 
+collaboration. It allows you and others to collaborate on projects from anywhere. 
+This lesson will teach you the fundamentals of GitHub, such as repositories, 
+branches, commits, and pull requests.
+
+	Efficient Collaboration: Git workflows provide structure and guidelines 
+for collaboration, enabling developers to work in parallel without conflicts. 
+They facilitate seamless communication and code integration, fostering teamwork 
+and productivity.
+
+Alternatives to GitHub.
+
+*GitLab.
+*CircleCI.
+*Jenkins.
+*Azure DevOps Server.
+*Bitbucket.
+*CloudBees.
+*Red Hat Ansible Automation Platform.
+*Assembla
+
+
+

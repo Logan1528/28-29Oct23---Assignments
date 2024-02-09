@@ -1,0 +1,51 @@
+Q1. Explain what is version control is and its importance in software development
+
+Ans:
+
+	A version control system (VCS) tracks changes to a file or set of files over time.
+ The most common type is a centralized VCS, which uses a server to store all the versions 
+of a file. Developers can check out a file from the server, make changes, and check the 
+file back in. The server then stores the new version of the file.
+
+
+importance in software development
+
+
+*Improves collaboration and communication
+
+	Version control enhances collaboration in multiple ways. Since version control can
+ identify conflicting changes, i.e. incompatible changes made to the same lines of code, 
+there is less need for coordination among developers. The packaging of commits, branches, 
+and all the associated commit messages and version labels, improves communication between 
+developers, both in the moment and over time. Better communication, whether instant or 
+deferred, can improve the code review process, the testing process, and other critical 
+aspects of the software development process.
+
+*Backup
+	A distributed VCS acts as a backup. If a central server does down, a developer 
+can retrieve one of his/her teammates’ local VCS repository. However, take note that 
+VCS is not generally a backup system so do not cram files on your remote server.
+
+*Traceability
+	Unhappy with the recent set of changes you made? With version control systems 
+you can restore an old version, or even the whole project, with a few simple clicks. 
+This gives software teams the ability to make significant changes to source code 
+without worrying that they’ll damage the original software.
+
+*Branching And Merging
+
+	Version control allows team members to work on the same document concurrently
+ but independent of each other without affecting the contribution of fellow collaborators.
+ Each contributor works on an independent stream of change – commonly referred to as a 
+branch.Creating a branch enables each team member to work on the same project using 
+multiple streams (branches). These are autonomous of each other. It empowers the 
+team to merge their independent work.Branching is usually adopted in segments 
+within teams that contain different workflows. These workflows may be for particular 
+features or specific version releases.Team members are usually flexible in reaching a 
+consensus on how they will use their method of branching and merging. Often, the type 
+and complexity of the document dictate this.
+
+
+
+
+

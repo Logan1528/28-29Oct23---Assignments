@@ -1,0 +1,42 @@
+Q2.Explain the Git Workflow, including the staging area, working directory, and repository
+
+Ans:
+	Identifying a single Git workflow is a necessary step in ensuring rapid delivery. 
+Software development teams encompass contributors from various backgrounds and experiences,
+ and they're likely to feel comfortable with a workflow they've used previously. Without a 
+single workflow, a team's development workflow could be chaotic and slow down cycle time.
+Git workflows empower teams to determine roles and responsibilities, set boundaries, and 
+identify areas of improvement.
+
+Five Popular Git workflows For Better Code:
+
+*Centralized Workflow
+
+*Feature Branch Workflow
+
+*Gitflow Workflow
+
+*Forking Workflow
+
+*Pull Request Workflow
+
+
+working directory
+
+	Working Directory​ A working directory is a folder you create to store all your 
+project's files. In contrast, a Git directory is a folder Git creates in the working 
+directory you instructed it to monitor.
+
+staging area
+
+	The staging area is a file, generally contained in your Git directory, that stores 
+information about what will go into your next commit. Its technical name in Git 
+parlance is the “index”, but the phrase “staging area” works just as well.
+
+repositary
+
+A repository, or repo, is a centralized digital storage that developers use to make 
+and manage changes to an application's source code. Developers have to store and 
+share folders, text files, and other types of documents when developing software.
+
+	
